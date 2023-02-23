@@ -15,47 +15,53 @@
       <h2 class="subtitle">Full Stack Developer</h2>
       <nav>
         <ul class="navigation">
-          <li class="nav-item"><a href="#">Acerca de</a></li>
-          <li class="nav-item"><a href="#">Mis Proyectos</a></li>
+          <li class="nav-item"><a href="#sobre-mi">Sobre mí</a></li>
+          <li class="nav-item"><a href="#proyectos">Mis Proyectos</a></li>
           <li class="nav-item"><a href="#">Contacto</a></li>
         </ul>
       </nav>
     </header>
 
-    <div class="intro">
-      ¡Hola! Soy Cari 👋 Soy de Córdoba, Argentina. Mi enorme curiosidad me ha llevado a crear proyectos web aprendiendo tecnologías como React, Angular, Java, Python, entre otros. Y mi enorme deseo de ayudar y crear cosas útiles y de calidad para todos me ha impulsado a estudiar accesibilidad web y UX/UI. ¡Aquí puedes ver algunos de mis proyectos! Soy una autodidacta intensiva, así que siéntete libre de contactarme si quieres hablar de tecnología conmigo!
-      <div class="social-media">
-        <div>
-          <a href="#" target="_blank">
-            <img src="images/twitter.png"/>
-          </a>
-        </div>
-        <div>
-          <a href="https://github.com/PaylemanC" target="_blank">
-            <img src="images/github-logo.png"/>
-          </a>
-        </div>
-        <div>
-          <a href="https://www.linkedin.com/in/carina-rocio-payleman/" target="_blank">
-            <img src="images/linkedin.png"/>
-          </a>
-        </div>
-      </div>
-    </div>
+    <main>
+      <section id="sobre-mi">
+        <h2 class="header">Sobre mí</h2>
+        <p class="intro">¡Hola! Soy Cari 👋 Soy de Córdoba, Argentina. Mi enorme curiosidad me ha llevado a crear proyectos web aprendiendo tecnologías como React, Angular, Java, Python, entre otros. Y mi enorme deseo de ayudar y crear cosas útiles y de calidad para todos me ha impulsado a estudiar accesibilidad web y UX/UI. ¡Aquí puedes ver algunos de mis proyectos! Soy una autodidacta intensiva, así que siéntete libre de contactarme si quieres hablar de tecnología conmigo!</p>
+        <ul class="social-media">
+          <li>
+            <a href="#" target="_blank">
+              <img src="images/twitter.png" alt="Twitter"/>
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/PaylemanC" target="_blank">
+              <img src="images/github-logo.png" alt="GitHub"/>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/carina-rocio-payleman/" target="_blank">
+              <img src="images/linkedin.png" alt="LinkedIn"/>
+            </a>
+          </li>
+        </ul>
+      </section>
 
-    <div class="carousel">
-      <div class="arrow arrow-left"></div>
-      <div class="window">
-        <div class="project-container">
-          <div class="project project1"></div>
-          <div class="project project2"></div>
-          <div class="project project3"></div>
-          <div class="project project4"></div>
-          <div class="project project5"></div>
+      <section id="proyectos">
+        <h2 class="header">Mis proyectos</h2>
+        <div class="carousel">
+          <div class="arrow arrow-left"></div>
+          <div class="window">
+            <ul class="project-container">
+              <li><button><img src="images/project1.png" alt="Mi primer proyecto" class="project project1"></button></li>
+              <li><button><img src="images/project2.png" alt="Mi segundo proyecto" class="project project2"></button></li>
+              <li><button><img src="images/project3.png" alt="Mi tercer proyecto" class="project project3"></button></li>
+              <li><button><img src="images/project4.png" alt="Mi cuarto proyecto" class="project project4"></button></li>
+              <li><button><img src="images/project5.png" alt="Mi quinto proyecto" class="project project5"></button></li>
+            </ul>
+          </div>
+          <div class="arrow arrow-right"></div>
         </div>
-      </div>
-      <div class="arrow arrow-right"></div>
-    </div>
+      </section>
+    </main>
 
     <div class="contact-section">
       <div class="header">Contacto</div>
