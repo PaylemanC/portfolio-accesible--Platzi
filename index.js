@@ -8,6 +8,7 @@ window.onload = () => {
     element.addEventListener("click", e => openModal(e));
   });
   document.body.addEventListener("click", e => closeModal(e));
+  document.body.addEventListener("keyup", e => listenForEsc(e))
 };
 
 /** Esta funcion se llama cuando la persona hace click en la fecha derecha del carousel para navegar a la derecha */
@@ -74,6 +75,13 @@ function showNotification() {
   setTimeout(function() {
     document.querySelector(".notification").style.display = "none";
   }, 3000);
+}
+
+/*Esta función cierra el modal cuando se presiona ESC de teclado*/
+function listenForEsc (e) {
+  if (e.key === 'Escape') {
+    closeModal(e);
+  }
 }
 
 /** Esta funcion se llama cuando la persona hace click en cualquier porjecto del carousel */
