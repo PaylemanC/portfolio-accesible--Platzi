@@ -207,7 +207,7 @@ nav {
 }
 
 .project-container button:focus-within {
-  outline: 4px solid var(--verde);
+  outline: 3px solid var(--verde);
 }
 
 .project-img {
@@ -309,7 +309,7 @@ input:focus {
   cursor: pointer;
   border: none;
 }
-.send-button:focus {
+.send-button:focus, .modal-button:focus {
   border: 2px solid var(--gris-oscuro);
   outline: 3px solid var(--verde);
 }
@@ -338,6 +338,11 @@ input:focus {
   justify-content: center;
   position: fixed;
   width: 100vw;
+}
+
+#modal-header {
+  outline: 3px solid var(--verde);
+  padding: 4px 8px;
 }
 
 .modal {
