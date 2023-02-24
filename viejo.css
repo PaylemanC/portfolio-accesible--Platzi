@@ -225,6 +225,33 @@ input {
   margin-left: auto;
 }
 
+.portfolio-url {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 40px 0 12px;
+  color: #f1dbb2;
+  font-size: 15px;
+  font-family: var(--secondary-font);
+}
+
+.portfolio-url a {
+  text-decoration: none;
+  font-size: 18px;
+  font-family: var(--main-font);
+  letter-spacing: 1px;
+  background-color: var(--verde);
+  padding: 16px;
+  color: #100f0f;
+  border: 3px solid var(--gris-medio);
+  border-radius: 12px;
+  margin-bottom: 8px;
+}
+.portfolio-url a:focus, .portfolio-url a:focus {
+  border: 2px solid var(--gris-oscuro);
+  outline: 3px solid #f1dbb2;
+}
+
 .notification {
   align-items: center;
   background-color: var(--verde);
