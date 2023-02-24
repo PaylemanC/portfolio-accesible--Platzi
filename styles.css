@@ -230,6 +230,12 @@ nav {
   height: 75px;
   transition: all 0.2s ease-in-out;
   width: 75px;
+  outline: 2px solid var(--blanco);
+}
+
+.arrow:focus {
+  outline: 3px solid var(--verde);
+  border-radius: 50%;
 }
 
 .arrow:hover {
