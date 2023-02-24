@@ -111,7 +111,7 @@ nav {
   border-radius: 5px;
   display: flex;
   font-family: var(--secondary-font);
-  height: 30px;
+  height: 40px;
   justify-content: center;
   width: 33%;
   font-weight: 600;
@@ -169,6 +169,9 @@ nav {
 
 .social-media img {
   margin-bottom: 10px;
+}
+.social-media img:hover {
+  transform: scale(1.1)
 }
 
 .social-link-text {
@@ -253,6 +256,10 @@ nav {
   width: 100%;
 }
 
+.contact-section .header {
+  margin: 16px 0;
+}
+
 .form-container {
   display: flex;
   flex-direction: column;
@@ -260,12 +267,14 @@ nav {
 }
 
 label {
-  color: white;
+  color: var(--verde);
+  font-family: var(--secondary-font);
+  margin-bottom: 6px;
 }
 
 .message-input input {
   height: 150px;
-  margin-bottom: 16px;
+  margin: 6px 0 24px
 }
 
 input {
