@@ -10,9 +10,10 @@ El proyecto es propuesto para el "Curso de Accesibilidad Web" de Platzi, con el 
 * **Teclado (navegación por tab).**
 * **Lector de pantalla.** 
 
-**URL del proyecto: https://master--portfolio-accesible.netlify.app/index.html**
-**!!** En la sección final hay un botón para alternar entre el portafolio inicial y el acabado con accesibilidad web del 100%.
+![Primer Vistazo Diferencia Portafolios](https://github.com/PaylemanC/proyEj-portfolio-accesible--Platzi/blob/master/images/difference.png)
 
+## **URL del proyecto: https://master--portfolio-accesible.netlify.app/index.html**
+**!!** En la sección final hay un botón para alternar entre el portafolio inicial y el acabado con accesibilidad web del 100%.
 
 ## Links útiles y lecturas sugeridas
 
